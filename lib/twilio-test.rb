@@ -12,5 +12,5 @@ client = Twilio::REST::Client.new account_ssid, auth_token
 client.messages.create(
     :from => '+12056971553',
     :to => '+447736549438',
-    :body => 'Hi Nyasha, Daniel here from the PC'
+    :body => 'Hi Daniel here from the PC'
 )

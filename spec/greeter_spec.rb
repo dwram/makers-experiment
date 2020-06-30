@@ -1,4 +1,4 @@
-require '../lib/greeter'
+require_relative '../lib/greeter'
 
 describe 'Greeter' do
   it 'greets' do
